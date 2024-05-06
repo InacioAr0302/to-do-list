@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main {
+  width: 100%;
+  min-height: 640px;
+  background-color: rgb(33, 34, 34);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  padding: 20px;
+  width: 50%;
+  min-height: 350px;
+  background-color: rgb(21, 21, 22);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.div-input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.div-input input {
+  padding: 5px;
+  height: 2rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  background-color: whitesmoke;
+  gap: 10px;
+}
+
+.div-input a {
+  background-color: aliceblue;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+.tarefa {
+  padding: 2.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.ul {
+  min-width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.tarefa span {
+  padding: 7px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  font-size: 25px;
+  background-color: whitesmoke;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.tarefa a {
+  background-color: aliceblue;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.tarefa button {
+  width: 2rem;
+  height: 2.4rem;
+  background-color: aliceblue;
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.tarefa button:hover {
+  background-color: darkgray;
+}
